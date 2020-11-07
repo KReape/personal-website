@@ -1,0 +1,176 @@
+@media screen and (max-device-width: 480px) {
+  li.nav {
+    float: center;
+    width: 100%;
+  }
+}
+
+body {
+  background: #fdfdfd;
+  color: #2c3145;
+  font-size: 18px;
+  font-family: Overpass Mono, monospace;
+  letter-spacing: 1px;
+  padding: 2vw;
+}
+
+header {
+  margin-bottom: 4vw;
+}
+
+footer {
+
+}
+
+h1 {
+  text-align: center;
+  color: #000f4a;
+  font-size: 55px;
+  letter-spacing: normal;
+  font-family: Montserrat, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3145;
+  font-size: 30px;
+  letter-spacing: normal;
+  font-family: Overpass, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: #2c3145;
+  font-size: 20px;
+  font-family: Overpass, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}
+
+li {
+  list-style-type: square;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #f04f4f;
+  color: #000f4a;
+  font-weight: bold;
+}
+
+li.nav {
+  color: #000f4a;
+  list-style-type: none;
+  float: center;
+  width: 25%;
+}
+
+li.nav a {
+  color: #000f4a;
+  display: block;
+  text-align: center;
+  padding: 4%;
+}
+
+li.nav a:hover {
+  background-color: #c93e3f;
+  color: #e4e6ed;
+}
+
+ul.nav2 {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2e8df;
+  color: #000f4a;
+  font-weight: bold;
+}
+
+li.nav2 {
+  list-style-type: none;
+  float: center;
+  padding-left: 2vw;
+}
+
+li.nav2 a {
+  display: block;
+  text-align: center;
+}
+
+li.nav2 a:hover {
+  position: relative;
+  top: -5px;
+  right: -5px;
+}
+
+a {
+  color: #2c3145;
+  text-decoration: none;
+}
+
+p {
+  padding: 1vw;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  padding: 1vw;
+}
+
+hr {
+  border-radius: 50px;
+  border-color: #f04f4f;
+  border-width: thick;
+}
+
+td {
+  text-align: center;
+}
+
+#copyright {
+  float: left;
+  font-family: Raleway, sans-serif;
+}
+
+#content-holder {
+  background: #f2e8df;
+  padding: 4vw;
+  box-shadow: .25vw .25vw 1.5vw #9c9c9c, -.25vw -.25vw 1.5vw #9c9c9c,
+  .25vw -.25vw 1.5vw #9c9c9c, -.25vw .25vw 1.5vw #9c9c9c;
+}
+
+#end-form {
+  background: #dbd3ce;
+  width: 30vw;
+  margin: 0 auto;
+  box-shadow: .01vw .01vw 1.5vw #adadad;
+  padding: 1vw;
+}
+/* Strawberry red #f04f4f
+SLIGHTLY LIGHTER RED #ff393a
+LIGHTER RED #ff5e5f
+DARKER RED #c93e3f
+White #fffdfb
+Off-white #f2e8df
+Beige #d2c1b5
+Blue black #2c3145
+Navy #000f4a
+Light blue #e4e6ed
+
+#DFDCE2 WHITE/GRAY (Background)
+#595959 DARK GRAY (Letters, borders)
+#3C153B DARK PURPLE (Outlines)
+#DB4C40 CINNABAR (Make things pop)
+#F0C987 GOLD CRAYOLA (Highlights)
+#89BD9E ETON BLUE (Interiors)
+#8B1E3F CLARET (Subtle hints, tiny bits)
+*/
